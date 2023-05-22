@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  azure-sql-edge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=${SA_PASSWORD}
+    volumes:
+      - ./dbdata:/var/opt/mssql
+    ports:
+      - "1433:1433"
