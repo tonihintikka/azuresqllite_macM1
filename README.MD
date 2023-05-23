@@ -47,3 +47,11 @@ You should see your azure-sql-edge service listed in the output.
 You can connect to the SQL Server instance using any SQL Server client, such as Azure Data Studio. The server name will be localhost,1433 and the login will be sa with the password you set in the .env file.
 
 Remember to replace YourStrongPassword with a strong password of your choosing. The password must meet SQL Server's password requirements.
+
+## Azure Data Studio
+If you want to import .bacpac to your server you need Azure Data Studio and Admin Pack add on to it
+
+![image](https://github.com/tonihintikka/azuresqllite_macM1/assets/6028261/1ac6aa6b-4950-4ca2-89cc-05450455f14e)
+Now you can just import these files to your server. 
+
+Happy coding!
